@@ -1,0 +1,91 @@
+* { 
+   ;
+
+    
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color:
+}
+
+nav {
+    border-left: ;
+    background-color: ;
+    padding-bottom: 20px;
+
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 146px;
+    
+}
+a {
+    color: ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none
+}
+
+.about-me {
+    color: ;
+    background-color: ;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-flow: wrap row;
+    row-gap: 50px; 
+    color: ;
+    background-color: ;
+    justify-content: space-around;
+
+}
+
+.projects h2 {
+    font-size: 80px;
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.project-1 {
+    border:mediumvioletred 4px solid;
+
+}
+
+.project-2 {
+    border: 4px blue solid;
+
+
+ 
+}
+
+.project-3 {
+    border: 4px green solid;
+
+ 
+}
+
+.project-4 {
+    border: 4px red solid;
+
+ 
+}
+
+
+.footer {
+    color: ;
+    background-color: ;
+    padding-top: 300px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
