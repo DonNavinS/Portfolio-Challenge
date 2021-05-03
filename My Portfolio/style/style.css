@@ -1,50 +1,53 @@
 * { 
-
-
-    
+background-color:
 }
+
+
 
 header {
     font-size: 30px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
-    background-color:
+    border-left:rgb(24, 24, 184) 10px solid;
+    background-color: rgb(71, 71, 230, 0.61)
 }
 
 header h1 {
-    background-color: 
+    border-left-color: rgb(24, 24, 184) 4px;
+    text-shadow: 2px 2px
 }
 
 nav {
-    border-left: ;
-    background-color: ;
-    padding-bottom: 20px;
-
+    background-color: rgba(245, 209, 3, 0.596);
+    border-left: rgb(204, 173, 0) 10px solid;
+    height: 100px;
+    padding-top: 50px;
 }
 
 nav ul {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    
 }
 li {
     list-style-type: none;
-
-    
 }
 a {
-    color: ;
+    color:black ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-decoration: none
 }
 
 .about-me {
-    color: ;
-    background-color: ;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    border-left:rgb(24, 24, 184) 10px solid;
+    background-color: rgba(71, 71, 230, 0.61);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .about-me h2 {
@@ -59,10 +62,11 @@ a {
     display: flex;
     flex-flow: wrap row;
     row-gap: 50px; 
-    color: ;
-    background-color: ;
     justify-content: space-around;
-    padding-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(255, 166, 0, 0.664);
+    border-left: rgb(223, 152, 20) 10px solid;
 
 }
 
@@ -81,33 +85,15 @@ a {
     text-align: center;
 }
 
-.project-1 {
-    border:mediumvioletred 4px solid;
-
-}
-
-.project-2 {
-    border: 4px blue solid;
-}
-
-.project-3 {
-    border: 4px green solid;
-}
-
-
-.project-4 {
-    border: 4px red solid;
-}
-
 
 
 .footer {
-    color: ;
-    background-color: ;
-    padding-top: 200px;
-    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    border-left:rgb(24, 24, 184) 10px solid;
+    background-color: rgb(71, 71, 230, 0.61)
 }
 
 .footer h2{
@@ -120,6 +106,7 @@ a {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 .contact ul li a {
